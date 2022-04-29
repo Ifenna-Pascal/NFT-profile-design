@@ -10,7 +10,7 @@ function Team() {
             Meet The Team
           </span>
           <span className="lg:text-xl mb-3 text-lg block text-gray-500 font-manrope">
-            The one's who are making things happen in the Rockstar Apes Club
+            The ones who are making things happen in the Rockstar Apes Club
             Space
           </span>
         </div>
@@ -25,7 +25,7 @@ function Team() {
               />
               </div>
               <div className="block text-center">
-                <span className="text-white block text-xl"> Poppy "VEEZY" APE</span>
+                <span className="text-white block text-xl"> Poppy veezy APE</span>
                 <span className="text-white text-base">Founder/Artist</span>
               </div>
           </div>
@@ -40,7 +40,7 @@ function Team() {
               />
               </div>
               <div className="block text-center ">
-                <span className="text-white block text-xl"> Poppy "VEEZY" APE</span>
+                <span className="text-white block text-xl"> Poppy veezy APE</span>
                 <span className="text-white text-base">Founder/Artist</span>
               </div>
           </div>
@@ -56,7 +56,7 @@ function Team() {
               />
               </div>
               <div className="block mt-2 text-center">
-                <span className="text-white block text-xl"> Poppy "VEEZY" APE</span>
+                <span className="text-white block text-xl"> Poppy veezy APE</span>
                 <span className="text-white text-base">Founder/Artist</span>
               </div>
           </div>
@@ -71,7 +71,7 @@ function Team() {
               />
               </div>
               <div className="block text-center">
-                <span className="text-white block text-xl"> Poppy "VEEZY" APE</span>
+                <span className="text-white block text-xl"> Poppy veezy APE</span>
                 <span className="text-white text-base">Founder/Artist</span>
               </div>
           </div>

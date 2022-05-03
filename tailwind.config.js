@@ -21,7 +21,9 @@ module.exports = {
         'hero': "url(/imgs/banner.jpg)",
         'teams': "url(/imgs/teams.jpg)",
         'section': 'url(/imgs/section.jpg)',
-        'section2': 'url(/imgs/section2.png)'
+        'section2': 'url(/imgs/section2.png)',
+        'section3': 'url(/imgs/section3.jpg)',
+        'road': 'url(/imgs/road.png)'
       }
     },
   },

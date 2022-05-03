@@ -3,8 +3,10 @@ import Image from "next/image";
 import About from "../components/About";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
+import Gallery from "../components/Gallery";
 import Hero from "../components/Hero";
 import Nav from "../components/Nav";
+import Roadmap from "../components/Roadmap";
 import Section from "../components/Section";
 import Section1 from "../components/Section1";
 import Section2 from "../components/Section2";
@@ -23,6 +25,8 @@ export default function Home() {
         <Nav />
         <Hero />
         <About />
+        <Gallery />
+        <Roadmap />
         <Team />
         <Section1 />
         <Section2 />

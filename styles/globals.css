@@ -19,7 +19,7 @@ a {
 /* tailwind CSS styling */
 @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities;  
 
 @layer components {
   .roadmap {
@@ -27,7 +27,11 @@ a {
   }
 
   .navItem {
-    @apply font-semibold text-white px-4 font-manrope text-base py-3 md:py-0 hover:text-[#E5A301] hover:cursor-pointer duration-300
+    @apply font-semibold text-white px-4 font-manrope text-lg py-3 md:py-0 hover:text-[#E5A301] hover:cursor-pointer duration-300
+  }
+
+  .active {
+    color: red ;
   }
 
   .iconItem {

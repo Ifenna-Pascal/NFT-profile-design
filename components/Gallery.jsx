@@ -12,20 +12,19 @@ function Gallery() {
     centerMode: true,
     autoplay: true,
     infinite: true,
-    dots: true,
     arrows: false,
-    centerPadding: "50px",
+    centerPadding: "30px",
     slidesToShow: 3,
     speed: 300
   };
   return (
-    <div className="bg-section2 bg-no-repeat bg-cover">
-      <div className="container py-24 lg:py-32">
+    <div id="art" className="bg-section2 bg-no-repeat bg-center bg-cover">
+      <div className="container py-16 lg:py-32">
         <div className="flex mb-8 flex-col mb-12 items-center justify-center">
-          <span className="font-bold capitalize lg:leading-[4rem] mb-2 lg:mb-4 font-manrope font-manrope text-white text-[2rem] lg:text-[3.6rem]">
+          <span className="font-bold capitalize lg:leading-[4.3rem] leading-[2.6rem] mb-4 lg:mb-4 text-center font-manrope text-white text-[2.1rem] lg:text-[3.8rem]">
             Rockstar Apes Collectibles
           </span>
-          <span className="lg:text-lg text-center mb-3 max-w-[70%] mx-auto text-lg block text-gray-500 font-manrope">
+          <span className="lg:text-lg text-center mb-3 max-w-full md:max-w-[60%] mx-auto text-lg block text-gray-400 font-manrope">
             Entering The Rockstar Society means joining an family full of people
             who believe in the future of Cryptocurrencies and the Blockchain
             technology.

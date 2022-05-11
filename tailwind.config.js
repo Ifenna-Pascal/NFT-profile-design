@@ -8,9 +8,9 @@ module.exports = {
       center: true,
       padding: "1rem",
       screens: {
-        lg: "1400px",
-        xl: "1400px",
-        "2xl": "1400px",
+        lg: "1300px",
+        xl: "1300px",
+        "2xl": "1300px",
       }
     },
     fontFamily: {
@@ -19,9 +19,10 @@ module.exports = {
     extend: {
       backgroundImage: {
         'hero': "url(/imgs/banner.jpg)",
+        'hero2': "url(/imgs/hero2.jpg)",
         'teams': "url(/imgs/teams.jpg)",
         'section': 'url(/imgs/section.jpg)',
-        'section2': 'url(/imgs/section2.png)',
+        'section2': 'url(/imgs/section3.jpg)',
         'section3': 'url(/imgs/section3.jpg)',
         'road': 'url(/imgs/road.png)'
       }

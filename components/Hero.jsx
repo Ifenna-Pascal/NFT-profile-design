@@ -15,11 +15,11 @@ function Hero() {
     slidesToScroll: 1,
   };
   return (
-    <div className="w-full py-12 h-screen lg:h-[80vh] flex flex-col items-center justify-center bg-cover bg-no-repeat bg-hero">
+    <div id="home" className="w-full py-12 bg-center h-screen lg:h-[80vh] flex flex-col items-center justify-center bg-cover bg-no-repeat bg-hero2 lg:bg-hero">
       <div className="container grid grid-cols-1  lg:grid-cols-2">
         <div className="py-6">
           <div className="w-full lg:w-[75%] py-6">
-            <h1 className="font-bold lg:leading-[5rem] mb-4 lg:mb-8 font-manrope text-white text-[2.3rem] lg:text-[4.2rem]">
+            <h1 className="font-bold lg:leading-[5.5rem] mb-4 lg:mb-8 font-manrope leading-[3rem] text-white text-[2.4rem] lg:text-[4.5rem]">
               Welcome To The Rockstar Apes.
             </h1>
             <span className="text-white text-lg md:text-xl">
@@ -29,13 +29,16 @@ function Hero() {
               pretty sweet perks every month!
             </span>
           </div>
-          <div className="flex mt-3 lg:mt-6 items-center">
-            <button className="mr-2 bg-[#E5A301] text-white w-[8rem] text-base font-semibold rounded-md flex flex-col items-center px-4 py-4">
+          <div className="flex mt-3 mb-8 lg:mb-0 lg:mt-6 items-center">
+            <button className="mr-1 lg:mr-2 bg-[#E5A301] text-white w-[8rem] text-sm md:text-base font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
               Mint Now
             </button>
-            <button className="bg-[#E5A301] text-white text-base w-[8rem] font-semibold rounded-md flex flex-col items-center px-4 py-4">
+            <button className="bg-[#E5A301] mr-1 lg:mr-2 text-white  text-sm md:text-base w-[8rem] font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
               Stake
             </button>
+            {/* <button className="bg-[#E5A301] text-white  text-sm md:text-base w-[8rem] font-semibold rounded-md flex flex-col items-center px-3 lg:px-4 lg:py-4 py-3">
+              Premint
+            </button> */}
           </div>
         </div>
         <div className="flex w-full h-full flex-col justify-center">
@@ -45,10 +48,10 @@ function Hero() {
                 key={i}
                 src={x}
                 width="100%"
-                height="90%"
+                height="95%"
                 layout="responsive"
                 objectFit="contain"
-                className="skew-y-[6deg]"
+                className="skew-y-[5deg]"
               />
             ))}
           </Slider>

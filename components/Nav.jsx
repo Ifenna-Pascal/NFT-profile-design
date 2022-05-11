@@ -27,7 +27,7 @@ function Nav() {
         scrollNav ? "shadow-xl bg-[#100620]" : "shadow-none"
       }  top-0`}
     >
-      <div className="container px-5 lg:px-0 py-6 flex items-center justify-between">
+      <div className="container px-5 lg:px-0 py-4 md:py-6 flex items-center justify-between">
         <div className="flex items-center">
           <div className="mr-4">
             {" "}

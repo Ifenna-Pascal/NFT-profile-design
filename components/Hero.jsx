@@ -15,18 +15,21 @@ function Hero() {
     slidesToScroll: 1,
   };
   return (
-    <div id="home" className="w-full py-12 bg-center h-screen lg:h-[80vh] flex flex-col items-center justify-center bg-cover bg-no-repeat bg-hero2 lg:bg-hero">
+    <div
+      id="home"
+      className="w-full py-12 bg-center h-screen lg:h-[80vh] flex flex-col items-center justify-center bg-cover bg-no-repeat bg-hero2 lg:bg-hero"
+    >
       <div className="container grid grid-cols-1  lg:grid-cols-2">
         <div className="py-6">
           <div className="w-full lg:w-[75%] py-6">
             <h1 className="font-bold lg:leading-[5.5rem] mb-4 lg:mb-8 font-manrope leading-[3rem] text-white text-[2.4rem] lg:text-[4.5rem]">
-              Welcome To The Rockstar Apes.
+              Welcome To Alpha Sheep Club.
             </h1>
             <span className="text-white text-lg md:text-xl">
-              Rock Star Apes is a community of artists who support each other
-              through fun and exciting collaborations. One of our goals is to
-              help each other find success in our art form. We also have some
-              pretty sweet perks every month!
+              Alpha sheep club a team of talented designers and marketing
+              specialists with extensive contacts among major internet
+              technology businesses, was inspired by the potential of NFT and
+              metaverse.
             </span>
           </div>
           <div className="flex mt-3 mb-8 lg:mb-0 lg:mt-6 items-center">

@@ -3,46 +3,38 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 
 const faqs = [
     {
-        question: "When is it launch?",
-        desc: "Official launch will be mid April 2022, precise dates are To-Be-Announced on our discord. Updates will be made in the announcements channel on discord and on Twitter."
+        question: "What is the Alpha Sheep club Nft? ",
+        desc: " Alpha Sheep Club is a collection of 10,000 unique collectible sheeps.. coming soon to Alphaverse and Blockchain."
     },
     {
-        question: "When is it launch?",
-        desc: "Official launch will be mid April 2022, precise dates are To-Be-Announced on our discord. Updates will be made in the announcements channel on discord and on Twitter."
+        question: "What are the benefits of holding Alpha Sheep club Nft?",
+        desc: "Check our discord to find out the benefits of holding our NFT."
     },
     {
-        question: "When is it lauch?",
-        desc: "Official launch will be mid April 2022, precise dates are To-Be-Announced on our discord. Updates will be made in the announcements channel on discord and on Twitter."
+        question: "How do I contact the alpha Sheep Club team?",
+        desc: "Join our discord, open a ticket to contact our admin or mod forward information."
     },
     {
-        question: "When is it launch?",
-        desc: "Official launch will be mid April 2022, precise dates are To-Be-Announced on our discord. Updates will be made in the announcements channel on discord and on Twitter."
+        question: "What is the total supply of Alpha Sheep Club NFT",
+        desc: "There are 10,000 of Alpha Sheep Club Nfts"
     },
     {
-        question: "When is it launch?",
-        desc: "Official launch will be mid April 2022, precise dates are To-Be-Announced on our discord. Updates will be made in the announcements channel on discord and on Twitter."
+        question: "How can I get Alpha Sheep Club NFT",
+        desc:  `Discord & Twitter giveaways, \n DG dpot, \n WL sales, \n public sales`
     },
-    {
-        question: "When is it lauch?",
-        desc: "Official launch will be mid April 2022, precise dates are To-Be-Announced on our discord. Updates will be made in the announcements channel on discord and on Twitter."
-    },
-    {
-        question: "When is it launch?",
-        desc: "Official launch will be mid April 2022, precise dates are To-Be-Announced on our discord. Updates will be made in the announcements channel on discord and on Twitter."
-    }
 ]
 
 const Question = ({question, description,index}) => {
     const [show, setShow] = useState(false);
     return (
-        <div className={`py-3 border-t-[1px] duration-300 hover:cursor-pointer border-gray-500 px-2 mb-3`} onClick={() => setShow(!show)}>
-        <div className={`flex justify-between items-center duration-300 `}>
+        <div className={`py-3 border-t-[1px] hover:cursor-pointer border-gray-500 px-2 mb-3`} onClick={() => setShow(!show)}>
+        <div className={`flex justify-between items-center`}>
             <h1 className={`font-semibold text-xl uppercase lg:text-3xl ${show ? 'text-[#E5A301]' : 'text-white'}`}> <span>{ index < 10 ? `0${index}` : `1${index}` }</span> {question} </h1>
-            <span onClick={() => setShow(!show)}>{show ? <AiOutlineMinus className='w-6 h-6  hidden md:block text-[#E5A301] hover:cursor-pointer' /> : <AiOutlinePlus className='w-6 h-6 hidden md:block font-bold text-white hover:cursor-pointer' />}</span>
+            <span onClick={() => setShow(!show)}>{show ? <AiOutlineMinus className='w-6 h-6 duration-300 hidden md:block text-[#E5A301] hover:cursor-pointer' /> : <AiOutlinePlus className='w-6 h-6 hidden md:block font-bold text-white hover:cursor-pointer' />}</span>
         </div>
         {
             show && (
-                <div className={`text-lg  tracking-wide lg:px-3  mt-8 text-gray-400`}>
+                <div className={`text-xl  tracking-wide lg:px-3 duration-300 ${show && "mt-8"}  text-gray-400`}>
                     {description}
                 </div>
             )

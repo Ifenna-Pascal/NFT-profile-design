@@ -7,9 +7,9 @@ const Phase = ({ heading, desc }) => (
     </div>
     <div className="">
       <div className="bg-[#E5A301]">
-        <div className="p-8 -translate-x-2  -translate-y-2 bg-white">
-          <div className="flex mb-4 items-center justify-between">
-            <span className="text-[#171835] font-semibold text-[1.75rem] ">
+        <div className="p-6 -translate-x-2  -translate-y-2 bg-white">
+          <div className="flex mb-2 md:mb-4 items-center justify-between">
+            <span className="text-[#171835] font-semibold text-xl md:text-[1.75rem] ">
               {heading}
             </span>
           </div>

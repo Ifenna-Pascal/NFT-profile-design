@@ -115,16 +115,33 @@ function Nav() {
         </div>
         <div className="lg:flex hidden items-center">
           <span className="iconItem">
-            <BsTwitter className="w-5 h-5" />
+            <Link href="https://twitter.com/AlphaSheepClub?t=cJZ09CglTQ6Mw1R5WMcHEA&s=09">
+              <a target="_blank">
+                <BsTwitter className="w-6 h-6" />
+              </a>
+            </Link>
           </span>
           <span className="iconItem">
-            <FaDiscord className="w-5 h-5" />
+            <Link href="https://discord.gg/m5CsM3hvCY">
+              <a target="_blank">
+                <FaDiscord className="w-6 h-6" />
+              </a>
+            </Link>
+          </span>
+
+          <span className="iconItem">
+            <Link href="https://www.instagram.com/p/CdGV_dIqjve/?igshid=YmMyMTA2M2Y=">
+              <a target="_blank">
+                <FaInstagram className="w-6 h-6" />
+              </a>
+            </Link>{" "}
           </span>
           <span className="iconItem">
-            <FaInstagram className="w-5 h-5" />
-          </span>
-          <span className="iconItem">
-            <FaTelegramPlane className="w-5 h-5" />
+            <Link href="https://www.reddit.com/u/AlphaSheepClub?utm_medium=android_app&utm_source=share">
+              <a target="_blank">
+                <FaTelegramPlane className="w-6 h-6" />
+              </a>
+            </Link>
           </span>
           <button className="bg-[#E5A301] rounded-lg px-8 ml-3 py-4 flex items-center flex-col font-semibold text-white">
             Connect Wallet

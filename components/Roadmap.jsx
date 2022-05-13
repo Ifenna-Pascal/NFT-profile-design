@@ -50,7 +50,7 @@ function Roadmap() {
             heading="Phase 4"
             desc="Design and launch our 2rd generation nft"
           />
-          <Phase heading="Phase 5" desc="Design our 3rd generation nft" />
+          <Phase heading="Phase 5" desc="Design our 3rd generation nfts" />
         </div>
       </div>
     </div>

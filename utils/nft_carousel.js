@@ -1,21 +1,17 @@
 export const nfts = [
-  "/imgs/nft1.png",
-  "/imgs/nft2.png",
-  "/imgs/nft3.png",
-  "/imgs/nft4.png",
-  "/imgs/nft5.png",
+  "/imgs/layer0.png",
+  "/imgs/layer1.png",
+  "/imgs/layer2.png",
+  "/imgs/layer 5.png",
+  "/imgs/layer4.png",
+  "/imgs/layer3.png",
 ];
 
 export const gallery = [
-  "/imgs/nft6.jpg",
-  "/imgs/nft6.jpg",
-  "/imgs/nft7.png",
-  "/imgs/nft8.png",
-  "/imgs/nft9.png",
-  "/imgs/nft3.png",
-  "/imgs/nft4.png",
-  "/imgs/nft6.jpg",
-  "/imgs/nft7.png",
-  "/imgs/nft8.png",
-  "/imgs/nft9.png",
+  "/imgs/sheep1.png",
+  "/imgs/sheep2.png",
+  "/imgs/sheep5.png",
+  "/imgs/sheep3.png",
+  "/imgs/sheep4.png",
+  "/imgs/sheep6.png"
 ];

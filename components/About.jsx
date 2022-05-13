@@ -7,9 +7,9 @@ function About() {
       id="about"
       className="container gap-x-8 py-24 lg:py-32 grid lg:grid-cols-2 grid-cols-1"
     >
-      <div className="w-full mb-4 md:mb-0 h-full">
+      <div className="w-full p-4 mb-4 md:mb-0 h-full">
         <Image
-          src="/imgs/alpha.png"
+          src="/imgs/Logo1.png"
           width="100%"
           height="100%"
           className="h-full"
@@ -37,7 +37,13 @@ function About() {
           club project (Blockchain Metaverse).
         </span>
         <button className="bg-text-white w-[16rem] text-base bg-[#E5A301] font-semibold rounded-md flex flex-col items-center px-12 uppercase text-white py-4">
-          Join our Discord
+          <a
+            href="https://discord.gg/m5CsM3hvCY"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Join Our Discord{" "}
+          </a>
         </button>
       </div>
     </div>

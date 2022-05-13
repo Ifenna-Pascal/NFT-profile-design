@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import Image from "next/image";
 import { BsTwitter } from "react-icons/bs";
 import { FaDiscord, FaInstagram, FaTelegramPlane } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
@@ -31,7 +30,7 @@ function Nav() {
         <div className="flex items-center">
           <div className="mr-4">
             {" "}
-            <Image src="/imgs/logo.png" width={60} height={60} />
+            <img src="/imgs/Logo1.png" width={60} height={60}  />
           </div>
           <div className="lg:block hidden">
             <Link

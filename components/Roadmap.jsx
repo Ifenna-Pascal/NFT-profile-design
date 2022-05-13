@@ -1,7 +1,9 @@
 import React from "react";
+import { Fade } from "react-reveal";
 
 const Phase = ({ heading, desc }) => (
-  <div className="relative mb-12 w-[90%]">
+ <Fade bottom duration={3000} >
+    <div className="relative mb-12 w-[90%]">
     <div className="absolute w-5 md:w-6 h-5 md:w-6 bg-[#E5A301] p-1 -left-[12.5%] top-[50%] flex items-center justify-center rounded-full ">
       <div className="w-3 md:w-4 h-3 md:h-4 rounded-full bg-white"></div>
     </div>
@@ -20,6 +22,7 @@ const Phase = ({ heading, desc }) => (
       </div>
     </div>
   </div>
+ </Fade>
 );
 
 function Roadmap() {

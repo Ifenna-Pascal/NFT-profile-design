@@ -1,5 +1,4 @@
 import React from "react";
-import Image from 'next/image';
 
 function Team() {
   return (
@@ -14,67 +13,71 @@ function Team() {
             Space
           </span>
         </div>
-        <div className="w-full grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-x-4">
+        <div className="w-full lg:w-[80%] mx-auto grid md:grid-cols-2 grid-cols-1 lg:grid-cols-2 gap-x-4">
           <div className="bg-gradient-to-t py-12 lg:mb-0 mb-6 px-6 mr-2 from-[#E97E2F] to-[#EBB381]  flex flex-col items-center justify-center">
               <div className="w-[100%] flex flex-col items-center">
               <img
-                src='/imgs/team1.png'
+                src='/imgs/layer4.png'
                 width="100%"
                 height="100%"
                 objectFit="fill"
+                className="rounded-full"
               />
               </div>
               <div className="block text-center">
-                <span className="text-white font-bold my-2 block text-2xl"> Poppy veezy APE</span>
-                <span className="text-white font-semibold text-base">Founder/Artist</span>
+                <span className="text-white font-bold my-2 block text-2xl"> Amani</span>
+                <span className="text-white font-semibold text-base">Co-founder</span>
               </div>
           </div>
           <div className="bg-gradient-to-t  lg:mb-0 mb-6 from-[#1C4376] to-[#AC2236] py-12 px-6 mr-2  flex flex-col items-center justify-center">
           <div className="w-[100%] flex flex-col items-center">
               <img
-                src='/imgs/team2.png'
+                src='/imgs/layer3.png'
                 width="100%"
                 height="90%"
                 layout="responsive"
                 objectFit="contain"
+                className="rounded-full"
               />
               </div>
               <div className="block text-center ">
-                <span className="text-white font-bold my-2 block text-2xl"> Poppy veezy APE</span>
-                <span className="text-white font-semibold text-base">Founder/Artist</span>
+                <span className="text-white font-bold my-2 block text-2xl">Joseph</span>
+                <span className="text-white font-semibold text-base">Co-founder</span>
               </div>
           </div>
-          <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#50A350] to-[#D8DF88]  flex flex-col items-center justify-center">
+          {/* <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#50A350] to-[#D8DF88]  flex flex-col items-center justify-center">
 
           <div className="w-[100%] flex flex-col items-center">
               <img
-                src='/imgs/team3.png'
+                src='/imgs/layer3.png'
                 width="100%"
                 height="100%"
                 layout="responsive"
                 objectFit="contain"
+                className="rounded-full"
               />
               </div>
               <div className="block mt-2 text-center">
-                <span className="text-white font-bold my-2 block text-2xl"> Poppy veezy APE</span>
-                <span className="text-white font-semibold text-base">Founder/Artist</span>
+                <span className="text-white font-bold my-2 block text-2xl">Joseph</span>
+                <span className="text-white font-semibold text-base">Co-founder</span>
               </div>
           </div>
           <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#C4362C] to-[#E0A028]  flex flex-col items-center justify-center">
           <div className="w-[100%] flex flex-col items-center">
               <img
-                src='/imgs/team4.png'
+                src='/imgs/layer0.png'
                 width="100%"
                 height="100%"
                 layout="responsive"
                 objectFit="contain"
+                className="rounded-full"
               />
               </div>
               <div className="block text-center">
-                <span className="text-white font-bold my-2 block text-2xl"> Poppy veezy APE</span>
-                <span className="text-white font-semibold text-base">Founder/Artist</span>
+                <span className="text-white font-bold my-2 block text-2xl"> Amani</span>
+                <span className="text-white font-semibold text-base">Co-founder</span>
               </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

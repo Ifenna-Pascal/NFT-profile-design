@@ -21,7 +21,7 @@ function Hero() {
     >
       <div className="container grid grid-cols-1  lg:grid-cols-2">
         <div className="py-6">
-          <div className="w-full lg:w-[75%] py-6">
+          <div className="w-full  lg:w-[75%] py-6">
             <h1 className="font-bold lg:leading-[5.5rem] mb-4 lg:mb-8 font-manrope leading-[3rem] text-white text-[2.4rem] lg:text-[4.5rem]">
               Welcome To Alpha Sheep Club.
             </h1>
@@ -32,7 +32,7 @@ function Hero() {
               metaverse.
             </span>
           </div>
-          <div className="flex mt-3 mb-8 lg:mb-0 lg:mt-6 items-center">
+          <div className="flex mt-3 mb-8 lg:mb-0 lg:mt-6  items-center">
             <button className="mr-1 lg:mr-2 bg-[#E5A301] text-white w-[8rem] text-sm md:text-base font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
               Mint Now
             </button>
@@ -51,10 +51,9 @@ function Hero() {
                 key={i}
                 src={x}
                 width="100%"
-                height="95%"
+                height="85%"
                 layout="responsive"
                 objectFit="contain"
-                className="skew-y-[5deg]"
               />
             ))}
           </Slider>

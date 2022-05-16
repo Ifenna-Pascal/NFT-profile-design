@@ -1,6 +1,6 @@
 import React from "react";
 import { BsTwitter } from "react-icons/bs";
-import { FaDiscord, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FaDiscord, FaInstagram,  FaReddit } from "react-icons/fa";
 import Link from "next/link";
 
 function Section() {
@@ -44,7 +44,7 @@ function Section() {
           <span className="iconItem">
             <Link href="https://www.reddit.com/u/AlphaSheepClub?utm_medium=android_app&utm_source=share">
               <a  target="_blank">
-                <FaTelegramPlane className="w-6 h-6" />
+                <FaReddit className="w-6 h-6" />
               </a>
             </Link>
           </span>

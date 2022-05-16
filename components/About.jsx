@@ -25,16 +25,14 @@ function About() {
           purpose of the project
         </span>
         <span className="lg:text-2xl mb-3 text-xl block text-gray-400 font-manrope">
-          Alpha sheep club a team of talented designers and marketing
-          specialists with extensive contacts among major internet technology
-          businesses, was inspired by the potential of NFT and metaverse and
-          decided to create a concept that encompassed everything: NFT,
-          metaverse, blockchain, and P2E.
+          Alpha Sheep Club NFT project is the project of the future sheep
+          shepherd, in a world ravaged by war, global warming and pollution,
+          Alpha sheep club is taking the beautiful nature of earth to the
+          Alphaverse. 
         </span>
         <span className="lg:text-2xl mb-6 text-xl block text-gray-400 font-manrope">
-          Alpha sheep club has finalized contract agreements with technology
-          providers and assembled a team of experts to work on the Alpha sheep
-          club project (Blockchain Metaverse).
+        Join us today and discover how we are going to change and
+          become the sheep shepherd to our world ecosystem!
         </span>
         <button className="bg-text-white w-[16rem] text-base bg-[#E5A301] font-semibold rounded-md flex flex-col items-center px-12 uppercase text-white py-4">
           <a

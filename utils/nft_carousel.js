@@ -5,6 +5,7 @@ export const nfts = [
   "/imgs/layer 5.png",
   "/imgs/layer4.png",
   "/imgs/layer3.png",
+  "/imgs/layer6.png",
 ];
 
 export const gallery = [

@@ -1,28 +1,43 @@
 import React from "react";
 import { Fade } from "react-reveal";
 
-const Phase = ({ heading, desc }) => (
- <Fade bottom duration={3000} >
+const Phase = ({ heading, desc, title }) => (
+  <Fade bottom duration={3000}>
     <div className="relative mb-12 w-[90%]">
-    <div className="absolute w-5 md:w-6 h-5 md:w-6 bg-[#E5A301] p-1 -left-[12.5%] top-[50%] flex items-center justify-center rounded-full ">
-      <div className="w-3 md:w-4 h-3 md:h-4 rounded-full bg-white"></div>
-    </div>
-    <div className="">
-      <div className="bg-[#E5A301]">
-        <div className="p-6 -translate-x-2  -translate-y-2 bg-white">
-          <div className="flex mb-2 md:mb-4 items-center justify-between">
-            <span className="text-[#171835] font-semibold text-xl md:text-[1.75rem] ">
-              {heading}
-            </span>
+      <div className="absolute w-5 md:w-6 h-5 md:w-6 bg-[#E5A301] p-1 -left-[12.5%] top-[50%] flex items-center justify-center rounded-full ">
+        <div className="w-3 md:w-4 h-3 md:h-4 rounded-full bg-white"></div>
+      </div>
+      <div className="">
+        <div className="bg-[#E5A301]">
+          <div className="p-6 -translate-x-2  -translate-y-2 bg-white">
+            <div className="flex mb-2 md:mb-2 items-center justify-between">
+              <span className="text-[#171835] font-semibold text-xl md:text-[1.75rem] ">
+                {heading}
+              </span>
+              <span className="text-[#E5A301] text-2xl">{title}</span>
+            </div>
+            {console.log(desc.split("-"))}
+            {desc &&
+              desc.split("-").map((x, i) => {
+                return (
+                  x &&
+                  x != " " && (
+                    <span
+                      key={i + 1}
+                      className="md:text-2xl mb-1 text-lg tracking-wide font-manrope leading-8 text-[#171835]"
+                    >
+                      {" "}
+                      <br />
+                      {`- ${x}`}
+                    </span>
+                  )
+                );
+              })}
           </div>
-          <span className="md:text-2xl text-lg tracking-wide font-manrope leading-8 text-[#171835]">
-            {desc}
-          </span>
         </div>
       </div>
     </div>
-  </div>
- </Fade>
+  </Fade>
 );
 
 function Roadmap() {
@@ -34,23 +49,65 @@ function Roadmap() {
             Growth Roadmap
           </span>
           <span className="lg:text-lg text-left mb-3  lg:max-w-[40%]  text-lg block text-gray-400 font-manrope">
-            Alpha sheep club are ready to mint onto the Ethereum Blockchain
-            to build an exclusive Community.
+            Alpha sheep club are ready to mint onto the Ethereum Blockchain to
+            build an exclusive Community.
           </span>
         </div>
-        <div className="max-w-[35rem] flex flex-col items-end relative">
+        <div className="max-w-[40rem] flex flex-col items-end relative">
           <div className="absolute left-0 h-full w-3 bg-[#E5A301]"></div>
           <Phase
             heading="Phase 1"
-            desc="Build a strong and healthy community"
+            title="Pre Launch!"
+            desc="
+            -boost and build a strong, active community
+            -Invite contest
+            -Sheepie meme contest!
+            -Giveaways!
+            -Filling up the WL and OG role.
+            -Release of mint date
+            -website Launch!
+            -presale and public sales"
           />
-          <Phase heading="Phase 2" desc="Setup our community funds " />
-          <Phase heading="Phase 3" desc="Utilities" />
+          <Phase
+            heading="Phase 2"
+            title="Launch"
+            desc="-Sheepie Dance & Challenge 
+              -Sheepie voice & Video language challenge
+              -Giveaway
+              -WL & OG 
+              -Mint date 
+              -Presale and public sale"
+          />
+          <Phase
+            heading="Phase 3"
+            title="Benefits"
+            desc="-Events and party
+-Nft Staking 
+-Receives Physical Special gifts
+-Exclusive opportunity "
+          />
           <Phase
             heading="Phase 4"
-            desc="Design and launch our 2rd generation nft"
+            title="Setup Community Funds"
+            desc="-Charity
+            -Community project "
           />
-          <Phase heading="Phase 5" desc="Design our 3rd generation nfts" />
+          <Phase
+            heading="Phase 5"
+            title="Introducing our other projects"
+            desc="-Alpha sheep ewe (ASE)
+-Alpha sheep Baby (ASB)
+-Alpha sheep verse (ASV)"
+          />
+          <Phase
+            heading="Phase 6"
+            title="Metaverse"
+            desc="-Events 
+            -Party 
+            -Headquarters
+            -Office
+            -Meeting"
+          />
         </div>
       </div>
     </div>

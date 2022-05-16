@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { BsTwitter } from "react-icons/bs";
-import { FaDiscord, FaInstagram, FaTelegramPlane } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaReddit } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
-import { Link } from "react-scroll";
+import { Link as LinkS } from "react-scroll";
+import Link from "next/link";
 
 function Nav() {
   const toggle = () => {
@@ -30,10 +31,10 @@ function Nav() {
         <div className="flex items-center">
           <div className="mr-4">
             {" "}
-            <img src="/imgs/Logo1.png" width={60} height={60}  />
+            <img src="/imgs/Logo1.png" width={60} height={60} />
           </div>
           <div className="lg:block hidden">
-            <Link
+            <LinkS
               activeClass="active"
               to="home"
               smooth={true}
@@ -43,8 +44,8 @@ function Nav() {
               exact="true"
             >
               <span className="navItem">Home</span>
-            </Link>
-            <Link
+            </LinkS>
+            <LinkS
               activeClass="active"
               to="about"
               smooth={true}
@@ -54,19 +55,8 @@ function Nav() {
               exact="true"
             >
               <span className="navItem">About Us</span>
-            </Link>
-            <Link
-              activeClass="active"
-              to="map"
-              smooth={true}
-              duration={500}
-              offset={-84}
-              spy={true}
-              exact="true"
-            >
-              <span className="navItem">Roadmap</span>
-            </Link>
-            <Link
+            </LinkS>
+            <LinkS
               activeClass="active"
               to="art"
               smooth={true}
@@ -76,8 +66,19 @@ function Nav() {
               exact="true"
             >
               <span className="navItem">Artist</span>
-            </Link>
-            <Link
+            </LinkS>
+            <LinkS
+              activeClass="active"
+              to="map"
+              smooth={true}
+              duration={500}
+              offset={-84}
+              spy={true}
+              exact="true"
+            >
+              <span className="navItem">Roadmap</span>
+            </LinkS>
+            <LinkS
               activeClass="active"
               to="team"
               smooth={true}
@@ -87,8 +88,8 @@ function Nav() {
               exact="true"
             >
               <span className="navItem">Our Team</span>
-            </Link>
-            <Link
+            </LinkS>
+            <LinkS
               activeClass="active"
               to="faq"
               smooth={true}
@@ -98,8 +99,8 @@ function Nav() {
               exact="true"
             >
               <span className="navItem">FAQ</span>
-            </Link>
-            <Link
+            </LinkS>
+            <LinkS
               activeClass="active"
               to="terms"
               smooth={true}
@@ -109,7 +110,7 @@ function Nav() {
               exact="true"
             >
               <span className="navItem">Terms</span>
-            </Link>
+            </LinkS>
           </div>
         </div>
         <div className="lg:flex hidden items-center">
@@ -138,7 +139,7 @@ function Nav() {
           <span className="iconItem">
             <Link href="https://www.reddit.com/u/AlphaSheepClub?utm_medium=android_app&utm_source=share">
               <a target="_blank">
-                <FaTelegramPlane className="w-6 h-6" />
+                <FaReddit className="w-6 h-6" />
               </a>
             </Link>
           </span>
@@ -164,7 +165,7 @@ function Nav() {
             <div
               className={` flex  flex-col items-center justify-center text-center lg:hidden`}
             >
-              <Link
+              <LinkS
                 activeClass="active"
                 to="home"
                 smooth={true}
@@ -175,8 +176,8 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>Home</span>
-              </Link>
-              <Link
+              </LinkS>
+              <LinkS
                 activeClass="active"
                 to="about"
                 smooth={true}
@@ -187,8 +188,8 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>About Us</span>
-              </Link>
-              <Link
+              </LinkS>
+              <LinkS
                 activeClass="active"
                 to="map"
                 smooth={true}
@@ -199,8 +200,8 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>Roadmap</span>
-              </Link>
-              <Link
+              </LinkS>
+              <LinkS
                 activeClass="active"
                 to="art"
                 smooth={true}
@@ -211,8 +212,8 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>Artist</span>
-              </Link>
-              <Link
+              </LinkS>
+              <LinkS
                 activeClass="active"
                 to="team"
                 smooth={true}
@@ -223,8 +224,8 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>Our Team</span>
-              </Link>
-              <Link
+              </LinkS>
+              <LinkS
                 activeClass="active"
                 to="faq"
                 smooth={true}
@@ -235,8 +236,8 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>FAQ</span>
-              </Link>
-              <Link
+              </LinkS>
+              <LinkS
                 activeClass="active"
                 to="terms"
                 smooth={true}
@@ -247,23 +248,40 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>Terms</span>
-              </Link>
+              </LinkS>
             </div>
             <div
               className={`flex my-8 flex-col justify-center text-center items-center`}
             >
               <div className="flex items-center justify-center mb-4">
                 <span className="iconItem">
-                  <BsTwitter className="w-5 h-5" />
+                  <Link href="https://twitter.com/AlphaSheepClub?t=cJZ09CglTQ6Mw1R5WMcHEA&s=09">
+                    <a target="_blank">
+                      <BsTwitter className="w-6 h-6" />
+                    </a>
+                  </Link>
                 </span>
                 <span className="iconItem">
-                  <FaDiscord className="w-5 h-5" />
+                  <Link href="https://discord.gg/m5CsM3hvCY">
+                    <a target="_blank">
+                      <FaDiscord className="w-6 h-6" />
+                    </a>
+                  </Link>
+                </span>
+
+                <span className="iconItem">
+                  <Link href="https://www.instagram.com/p/CdGV_dIqjve/?igshid=YmMyMTA2M2Y=">
+                    <a target="_blank">
+                      <FaInstagram className="w-6 h-6" />
+                    </a>
+                  </Link>{" "}
                 </span>
                 <span className="iconItem">
-                  <FaInstagram className="w-5 h-5" />
-                </span>
-                <span className="iconItem">
-                  <FaTelegramPlane className="w-5 h-5" />
+                  <Link href="https://www.reddit.com/u/AlphaSheepClub?utm_medium=android_app&utm_source=share">
+                    <a target="_blank">
+                      <FaReddit className="w-6 h-6" />
+                    </a>
+                  </Link>
                 </span>
               </div>
               <button className="bg-[#E5A301] rounded-lg px-8 my-4 py-3 hover:bg-[#856410]  flex items-center flex-col font-semibold text-white">

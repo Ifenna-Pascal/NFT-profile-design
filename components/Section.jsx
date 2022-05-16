@@ -11,7 +11,7 @@ function Section() {
     >
       <div className="flex w-full text-center flex-col items-center justify-center">
         <h1 className="font-bold  lg:leading-[4rem] mb-3 lg:mb-4 font-manrope font-manrope text-white text-[2rem] lg:text-[3.2rem]">
-          RAC
+          ASC
         </h1>
         <span className="lg:text-xl mb-7 text-xl block text-white w-[90%]  md:w-[85%] mx-auto font-manrope">
           Our exclusive community is a family full of investors and nft

@@ -17,7 +17,7 @@ function Team() {
           <div className="bg-gradient-to-t py-12 lg:mb-0 mb-6 px-6 mr-2 from-[#E97E2F] to-[#EBB381]  flex flex-col items-center justify-center">
               <div className="w-[100%] flex flex-col items-center">
               <img
-                src='/imgs/layer4.png'
+                src='/imgs/layer6.png'
                 width="100%"
                 height="100%"
                 objectFit="fill"
@@ -32,7 +32,7 @@ function Team() {
           <div className="bg-gradient-to-t  lg:mb-0 mb-6 from-[#1C4376] to-[#AC2236] py-12 px-6 mr-2  flex flex-col items-center justify-center">
           <div className="w-[100%] flex flex-col items-center">
               <img
-                src='/imgs/layer3.png'
+                src='/imgs/layer0.png'
                 width="100%"
                 height="90%"
                 layout="responsive"

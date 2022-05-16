@@ -58,17 +58,6 @@ function Nav() {
             </LinkS>
             <LinkS
               activeClass="active"
-              to="art"
-              smooth={true}
-              duration={500}
-              offset={-84}
-              spy
-              exact="true"
-            >
-              <span className="navItem">Artist</span>
-            </LinkS>
-            <LinkS
-              activeClass="active"
               to="map"
               smooth={true}
               duration={500}
@@ -200,18 +189,6 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>Roadmap</span>
-              </LinkS>
-              <LinkS
-                activeClass="active"
-                to="art"
-                smooth={true}
-                duration={500}
-                offset={-84}
-                spy={true}
-                exact="true"
-                className="navItem"
-              >
-                <span onClick={() => setShow(false)}>Artist</span>
               </LinkS>
               <LinkS
                 activeClass="active"

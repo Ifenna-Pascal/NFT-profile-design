@@ -10,13 +10,12 @@ const Phase = ({ heading, desc, title }) => (
       <div className="">
         <div className="bg-[#E5A301]">
           <div className="p-6 -translate-x-2  -translate-y-2 bg-white">
-            <div className="flex mb-2 md:mb-2 items-center justify-between">
+            <div className="flex items-start justify-start text-left flex-col md:flex-row  md:mb-2 md:items-center md:justify-between">
               <span className="text-[#171835] font-semibold text-xl md:text-[1.75rem] ">
                 {heading}
               </span>
-              <span className="text-[#E5A301] text-2xl">{title}</span>
+              <span className="text-[#E5A301] text-xl md:text-2xl ">{title}</span>
             </div>
-            {console.log(desc.split("-"))}
             {desc &&
               desc.split("-").map((x, i) => {
                 return (

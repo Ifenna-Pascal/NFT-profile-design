@@ -6,7 +6,7 @@ function Section1() {
     <div className="container gap-x-8 py-24 lg:py-32 grid lg:grid-cols-2 grid-cols-1">
       <div className="w-full h-full">
         <Image
-          src="/imgs/77day.gif"
+          src="/imgs/50day.gif"
           width="100%"
           height="100%"
           className="h-full"
@@ -16,12 +16,12 @@ function Section1() {
       </div>
       <div className="text-left h-full max-h-full flex flex-col lg:justify-center lg:px-4 py-3 font-manrope">
         <h1 className="font-bold uppercase lg:leading-[4rem] mb-4 mt-3 lg:mb-8 font-manrope font-manrope text-white text-[1.6rem] lg:text-[3.2rem]">
-          77 Days of Giveaways
+          50 Days of Giveaways
         </h1>
 
         <span className="lg:text-xl mb-3 text-lg block text-gray-400 font-manrope">
-          For 77 days after the mint of the Rockstar Apes collection, the team
-          have decided to giveaway 77 prestigious NFTs from other great well
+          For 50 days after the mint of the Alpha Sheep Club collection, the team
+          have decided to giveaway 50 prestigious NFTs from other great well
           known communities for our Holders only!
         </span>
         <span className="lg:text-xl mb-6 text-base block text-gray-400 font-manrope">

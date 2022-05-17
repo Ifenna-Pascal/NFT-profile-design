@@ -23,7 +23,7 @@ function Nav() {
   }, []);
   return (
     <nav
-      className={`w-full sticky z-50 bg-[#171835] ${
+      className={`w-full ${show && "h-screen"} sticky z-50 bg-[#171835] ${
         scrollNav ? "shadow-xl bg-[#100620]" : "shadow-none"
       }  top-0`}
     >

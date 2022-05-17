@@ -36,12 +36,6 @@ function Hero() {
             <button className="mr-1 lg:mr-2 bg-[#E5A301] text-white w-[8rem] text-sm md:text-base font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
               Mint Now
             </button>
-            <button className="bg-[#E5A301] mr-1 lg:mr-2 text-white  text-sm md:text-base w-[8rem] font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
-              Stake
-            </button>
-            {/* <button className="bg-[#E5A301] text-white  text-sm md:text-base w-[8rem] font-semibold rounded-md flex flex-col items-center px-3 lg:px-4 lg:py-4 py-3">
-              Premint
-            </button> */}
           </div>
         </div>
         <div className="flex w-full h-full flex-col justify-center">

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { BsTwitter } from "react-icons/bs";
 import { FaDiscord, FaInstagram, FaReddit } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
-import { Link as LinkS } from "react-scroll";
+import { Link as LinkS, animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
 
 function Nav() {
@@ -29,7 +29,7 @@ function Nav() {
     >
       <div className="container px-5 lg:px-0 py-4 md:py-6 flex items-center justify-between">
         <div className="flex items-center">
-          <div className="mr-4">
+          <div className="mr-4" onClick={() => scroll.scrollToTop() }>
             {" "}
             <img src="/imgs/Logo1.png" width={60} height={60} />
           </div>

@@ -42,7 +42,7 @@ function Team() {
               </div>
               <div className="block text-center ">
                 <span className="text-white font-bold my-2 block text-2xl">Joseph</span>
-                <span className="text-white font-semibold text-base">Co-founder</span>
+                <span className="text-white font-semibold text-base">Director</span>
               </div>
           </div>
           {/* <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#50A350] to-[#D8DF88]  flex flex-col items-center justify-center">

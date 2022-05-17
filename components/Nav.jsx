@@ -89,17 +89,6 @@ function Nav() {
             >
               <span className="navItem">FAQ</span>
             </LinkS>
-            <LinkS
-              activeClass="active"
-              to="terms"
-              smooth={true}
-              duration={500}
-              offset={-84}
-              spy={true}
-              exact="true"
-            >
-              <span className="navItem">Terms</span>
-            </LinkS>
           </div>
         </div>
         <div className="lg:flex hidden items-center">
@@ -213,18 +202,6 @@ function Nav() {
                 className="navItem"
               >
                 <span onClick={() => setShow(false)}>FAQ</span>
-              </LinkS>
-              <LinkS
-                activeClass="active"
-                to="terms"
-                smooth={true}
-                duration={500}
-                offset={-84}
-                spy={true}
-                exact="true"
-                className="navItem"
-              >
-                <span onClick={() => setShow(false)}>Terms</span>
               </LinkS>
             </div>
             <div

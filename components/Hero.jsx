@@ -47,7 +47,7 @@ function Hero() {
                 width="100%"
                 height="85%"
                 layout="responsive"
-                objectFit="contain"
+                objectfit="contain"
               />
             ))}
           </Slider>

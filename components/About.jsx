@@ -14,7 +14,7 @@ function About() {
           height="100%"
           className="h-full"
           layout="responsive"
-          objectFit="contain"
+          objectfit="contain"
         />
       </div>
       <div className="text-left h-full max-h-full flex flex-col lg:justify-center lg:px-4 py-3 font-manrope">

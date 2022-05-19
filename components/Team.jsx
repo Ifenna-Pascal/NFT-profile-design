@@ -21,7 +21,7 @@ function Team() {
                 width="100%"
                 height="100%"
                 layout="responsive"
-                objectFit="contain"
+                objectfit="contain"
                 className="rounded-full"
               />
             </div>
@@ -40,7 +40,7 @@ function Team() {
                 src="/imgs/remove2.png"
                 width="100%"
                 height="100%"
-                objectFit="fill"
+                objectfit="fill"
                 className="rounded-full"
               />
             </div>
@@ -61,7 +61,7 @@ function Team() {
                 width="100%"
                 height="90%"
                 layout="responsive"
-                objectFit="contain"
+                objectfit="contain"
                 className="rounded-full"
               />
             </div>
@@ -82,7 +82,7 @@ function Team() {
                 width="100%"
                 height="100%"
                 layout="responsive"
-                objectFit="contain"
+                objectfit="contain"
                 className="rounded-full"
               />
             </div>
@@ -101,7 +101,7 @@ function Team() {
                 width="100%"
                 height="100%"
                 layout="responsive"
-                objectFit="contain"
+                objectfit="contain"
                 className="rounded-full"
               />
             </div>

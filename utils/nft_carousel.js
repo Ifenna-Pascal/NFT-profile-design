@@ -1,11 +1,11 @@
 export const nfts = [
-  "/imgs/layer0.png",
-  "/imgs/layer1.png",
-  "/imgs/layer2.png",
-  "/imgs/layer 5.png",
-  "/imgs/layer4.png",
-  "/imgs/layer3.png",
-  "/imgs/layer6.png",
+  "/imgs/remove1.png",
+  "/imgs/remove2.png",
+  "/imgs/remove3.png",
+  "/imgs/remove4.png",
+  "/imgs/remove5.png",
+  "/imgs/remove6.png",
+  "/imgs/remove7.png"
 ];
 
 export const gallery = [

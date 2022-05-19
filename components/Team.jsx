@@ -17,7 +17,7 @@ function Team() {
           <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#50A350] to-[#D8DF88]  flex flex-col items-center justify-center">
             <div className="w-[100%] flex flex-col items-center">
               <img
-                src="/imgs/layer3.png"
+                src="/imgs/remove1.png"
                 width="100%"
                 height="100%"
                 layout="responsive"
@@ -30,14 +30,14 @@ function Team() {
                 Michi.eth
               </span>
               <span className="text-white font-semibold text-base">
-                F ounder
+                Founder
               </span>
             </div>
           </div>
           <div className="bg-gradient-to-t py-12 lg:mb-0 mb-6 px-6 mr-2 from-[#E97E2F] to-[#EBB381]  flex flex-col items-center justify-center">
             <div className="w-[100%] flex flex-col items-center">
               <img
-                src="/imgs/layer6.png"
+                src="/imgs/remove2.png"
                 width="100%"
                 height="100%"
                 objectFit="fill"
@@ -57,7 +57,7 @@ function Team() {
           <div className="bg-gradient-to-t  lg:mb-0 mb-6 from-[#1C4376] to-[#AC2236] py-12 px-6 mr-2  flex flex-col items-center justify-center">
             <div className="w-[100%] flex flex-col items-center">
               <img
-                src="/imgs/layer0.png"
+                src="/imgs/remove3.png"
                 width="100%"
                 height="90%"
                 layout="responsive"
@@ -78,7 +78,7 @@ function Team() {
           <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#C4362C] to-[#E0A028]  flex flex-col items-center justify-center">
             <div className="w-[100%] flex flex-col items-center">
               <img
-                src="/imgs/layers0.png"
+                src="/imgs/remove4.png"
                 width="100%"
                 height="100%"
                 layout="responsive"
@@ -97,7 +97,7 @@ function Team() {
           <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#C4362C] to-[#E0A028]  flex flex-col items-center justify-center">
             <div className="w-[100%] flex flex-col items-center">
               <img
-                src="/imgs/layer0.png"
+                src="/imgs/remove5.png"
                 width="100%"
                 height="100%"
                 layout="responsive"

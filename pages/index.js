@@ -16,7 +16,10 @@ export default function Home() {
     <div>
       <Head>
         <title>Alpha Sheep Club</title>
-        <meta name="description" content="Mint your amazing sheep NFTs with Alpha Sheep Club" />
+        <meta
+          name="description"
+          content="Project of the future sheep shepherd, in a world ravaged by war, global warming and pollution."
+        />
         <link rel="icon" href="/Logo1.png" />
       </Head>
       <main className="w-full h-full  bg-[#171835]">

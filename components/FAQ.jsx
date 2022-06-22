@@ -3,25 +3,30 @@ import { AiOutlinePlus, AiOutlineMinus } from 'react-icons/ai';
 
 const faqs = [
     {
-        question: "What is the Alpha Sheep club Nft? ",
-        desc: " Alpha Sheep Club is a collection of 10,000 unique collectible sheeps.. coming soon to Alphaverse and Blockchain."
+        question: "What is the Alpha Sheep Club?",
+        desc: "Alpha sheep club is a 3D nft Collection of 10,000 unique  sheep coming to Ethereum Blockchain soon Alpha Sheep Club is taking the beautiful nature of earth to the alpha verse where the Shepard's live with Alpha sheep nft,10 Knight sheep nft, Uncommon sheep nft, common sheep nft, rare sheep nft, super rare nft"
     },
     {
-        question: "What are the benefits of holding Alpha Sheep club Nft?",
-        desc: "Check our discord to find out the benefits of holding our NFT."
+        question: "When is the mint price & date?",
+        desc: "OG presale: TBA \n WL Presale: TBA \n Public presale: TBA"
     },
     {
-        question: "How do I contact the alpha Sheep Club team?",
-        desc: "Join our discord, open a ticket to contact our admin or mod forward information."
+        question: "What is the total supply of Alpha Sheep Club Nft?",
+        desc: "There will be 10,000 of Alpha Sheep Club NFT without no additional nft"
     },
     {
-        question: "What is the total supply of Alpha Sheep Club NFT",
-        desc: "There are 10,000 of Alpha Sheep Club Nfts"
+        question: "How can I get Alpha Sheep Club Nft?",
+        desc: "You get our nft by been whitelisted and OG for presale or public sale And also OS for secondary market"
     },
     {
-        question: "How can I get Alpha Sheep Club NFT",
-        desc:  `Discord & Twitter giveaways, \n DG dpot, \n WL sales, \n public sales`
+        question: "Which Blockchain would this project be on?",
+        desc:  `Ethereum Blockchain`
     },
+    {
+        question: "What are the benefits of Alpha Sheep Club holders?",
+        desc:  `Holder will be to attending exclusive our events and party
+        They can shake their nft and benefit from it.... Etc \n Join our discord, find out more on how to be whitelist and get access to our Presale`
+    }
 ]
 
 const Question = ({question, description,index}) => {

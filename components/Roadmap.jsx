@@ -4,17 +4,18 @@ import { Fade } from "react-reveal";
 const Phase = ({ heading, desc, title }) => (
   <Fade bottom duration={3000}>
     <div className="relative mb-12 w-[90%]">
-      <div className="absolute w-5 md:w-6 h-5 md:w-6 bg-[#E5A301] p-1 -left-[12.5%] top-[50%] flex items-center justify-center rounded-full ">
+      <div className="absolute w-5 md:w-6 h-5 md:w-6 bg-green-500 p-1 -left-[12.5%] top-[50%] flex items-center justify-center rounded-full ">
         <div className="w-3 md:w-4 h-3 md:h-4 rounded-full bg-white"></div>
       </div>
-      <div className="">
-        <div className="bg-[#E5A301]">
-          <div className="p-6 -translate-x-2  -translate-y-2 bg-white">
+      <div>
+        <div>
+          <div className="p-6 -translate-x-2  -translate-y-2 
+h-full w-full bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-20 bg-none">
             <div className="flex items-start justify-start text-left flex-col md:flex-row  md:mb-2 md:items-center md:justify-between">
-              <span className="text-[#171835] font-semibold text-xl md:text-[1.75rem] ">
+              <span className="text-white font-semibold text-xl md:text-[1.75rem] ">
                 {heading}
               </span>
-              <span className="text-[#E5A301] text-xl md:text-2xl ">{title}</span>
+              <span className="text-green-500 text-xl md:text-2xl ">{title}</span>
             </div>
             {desc &&
               desc.split("-").map((x, i) => {
@@ -23,7 +24,7 @@ const Phase = ({ heading, desc, title }) => (
                   x != " " && (
                     <span
                       key={i + 1}
-                      className="md:text-2xl mb-1 text-lg tracking-wide font-manrope leading-8 text-[#171835]"
+                      className="md:text-2xl mb-1 text-lg tracking-wide font-manrope leading-8 text-white"
                     >
                       {" "}
                       <br />
@@ -53,7 +54,7 @@ function Roadmap() {
           </span>
         </div>
         <div className="max-w-[40rem] flex flex-col items-end relative">
-          <div className="absolute left-0 h-full w-3 bg-[#E5A301]"></div>
+          <div className="absolute left-0 h-full w-3 bg-green-500"></div>
           <Phase
             heading="Phase 1"
             title="Pre Launch!"

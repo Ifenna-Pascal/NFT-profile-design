@@ -28,13 +28,13 @@ const Question = ({question, description,index}) => {
     const [show, setShow] = useState(false);
     return (
         <div className={`py-3 border-t-[1px] hover:cursor-pointer border-gray-500 px-2 mb-3`} onClick={() => setShow(!show)}>
-        <div className={`flex justify-between items-center`}>
-            <h1 className={`font-semibold text-xl uppercase lg:text-3xl ${show ? 'text-[#E5A301]' : 'text-white'}`}> <span>{ index < 10 ? `0${index}` : `1${index}` }</span> {question} </h1>
-            <span onClick={() => setShow(!show)}>{show ? <AiOutlineMinus className='w-6 h-6 duration-300 hidden md:block text-[#E5A301] hover:cursor-pointer' /> : <AiOutlinePlus className='w-6 h-6 hidden md:block font-bold text-white hover:cursor-pointer' />}</span>
+        <div className={`flex justify-between items-center duration-300 ${show && "mb-12"}`}>
+            <h1 className={`font-semibold text-xl uppercase  duration-300 lg:text-3xl ${show ? 'text-green-500 ' : 'text-white'}`}> <span>{ index < 10 ? `0${index}` : `1${index}` }</span> {question} </h1>
+            <span onClick={() => setShow(!show)}>{show ? <AiOutlineMinus className='w-6 h-6 duration-300 hidden md:block text-green-500 hover:cursor-pointer' /> : <AiOutlinePlus className='w-6 h-6 hidden md:block font-bold text-white hover:cursor-pointer' />}</span>
         </div>
         {
             show && (
-                <div className={`text-xl  tracking-wide lg:px-3 duration-300 ${show && "mt-8"}  text-gray-400`}>
+                <div className={`text-xl  tracking-wide lg:px-3 duration-300   text-gray-400`}>
                     {description}
                 </div>
             )

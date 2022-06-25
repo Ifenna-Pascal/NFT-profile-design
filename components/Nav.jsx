@@ -23,13 +23,12 @@ function Nav() {
   }, []);
   return (
     <nav
-      className={`w-full ${show && "h-screen"} sticky z-50 bg-[#171835] ${
-        scrollNav ? "shadow-xl bg-[#100620]" : "shadow-none"
-      }  top-0`}
+      className={`w-full ${show && "h-screen"} sticky z-50 bg-gray-900 ${scrollNav ? "shadow-xl h-full w-full bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 " : "shadow-none"
+        }  top-0`}
     >
       <div className="container px-5 lg:px-0 py-4 md:py-6 flex items-center justify-between">
         <div className="flex items-center">
-          <div className="mr-4" onClick={() => scroll.scrollToTop() }>
+          <div className="mr-4" onClick={() => scroll.scrollToTop()}>
             {" "}
             <img src="/imgs/Logo1.png" width={60} height={60} />
           </div>
@@ -121,7 +120,7 @@ function Nav() {
               </a>
             </Link>
           </span>
-          <button className="bg-[#E5A301] rounded-lg px-8 ml-3 py-4 flex items-center flex-col font-semibold text-white">
+          <button className="bg-green-500 hover:bg-green-900 duration-300 rounded-lg px-8 ml-3 py-4 flex items-center flex-col font-semibold text-white">
             Connect Wallet
           </button>
         </div>
@@ -134,9 +133,8 @@ function Nav() {
         </div>
       </div>
       <div
-        className={`duration-300 ${
-          show ? "translate-y-0" : "translate-y-full"
-        } h-full`}
+        className={`duration-300 ${show ? "translate-y-0" : "translate-y-full"
+          } h-full`}
       >
         {show && (
           <>
@@ -238,7 +236,7 @@ function Nav() {
                   </Link>
                 </span>
               </div>
-              <button className="bg-[#E5A301] rounded-lg px-8 my-4 py-3 hover:bg-[#856410]  flex items-center flex-col font-semibold text-white">
+              <button className="bg-green-500 rounded-lg px-8 my-4 py-3 hover:bg-green-900 flex items-center flex-col font-semibold text-white">
                 Connect Wallet
               </button>
             </div>

@@ -33,7 +33,7 @@ function Hero() {
             </span>
           </div>
           <div className="flex mt-3 mb-8 lg:mb-0 lg:mt-6  items-center">
-            <button className="mr-1 lg:mr-2 bg-[#E5A301] text-white w-[8rem] text-sm md:text-base font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
+            <button className="mr-1 lg:mr-2 bg-green-500 hover:bg-green-900 duration-300 text-white w-[8rem] text-sm md:text-base font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
               Mint Now
             </button>
           </div>

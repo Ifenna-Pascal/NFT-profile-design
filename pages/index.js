@@ -22,7 +22,7 @@ export default function Home() {
         />
         <link rel="icon" href="/Logo1.png" />
       </Head>
-      <main className="w-full h-full  bg-[#171835]">
+      <main className="w-full h-full  bg-[#070707]">
         <Nav />
         <Hero />
         <About />

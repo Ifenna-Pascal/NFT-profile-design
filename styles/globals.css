@@ -27,14 +27,14 @@ a {
   }
 
   .navItem {
-    @apply font-semibold text-white px-4 font-manrope text-lg py-3 md:py-0 hover:text-[#E5A301] hover:cursor-pointer duration-300
+    @apply font-semibold text-white px-4 font-manrope text-lg py-3 md:py-0 hover:text-green-500 hover:cursor-pointer duration-300
   }
 
   .active {
-    color: #E5A301;
+    @apply text-green-500
   }
 
   .iconItem {
-    @apply bg-white rounded-md p-2 mr-3 hover:bg-[#E5A301] hover:text-white hover:cursor-pointer duration-500;
+    @apply bg-white rounded-md p-2 mr-3 hover:bg-green-500 hover:text-white hover:cursor-pointer duration-500;
   }
 }

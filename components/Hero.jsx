@@ -17,10 +17,10 @@ function Hero() {
   return (
     <div
       id="home"
-      className="w-full py-12 bg-center h-screen lg:h-[80vh] flex flex-col overlay  items-center justify-center bg-cover bg-no-repeat bg-hero"
+      className="w-full  bg-center h-screen lg:h-[80vh] flex flex-col overlay  items-center justify-center bg-cover bg-no-repeat bg-hero"
     >
-      <div className="container grid grid-cols-1  lg:grid-cols-2">
-        <div className="py-6">
+      <div className="container py-12 grid grid-cols-1 overlay lg:grid-cols-2">
+        <div className="py-6 ">
           <div className="w-full text-center md:text-left  lg:w-[75%] py-6">
             <h1 className="font-bold lg:leading-[5.5rem] mb-4 lg:mb-8 font-manrope leading-[3rem] text-white text-[2.4rem] lg:text-[4.5rem]">
               Welcome To Alpha Sheep Club.

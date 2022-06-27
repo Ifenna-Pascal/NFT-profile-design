@@ -2,7 +2,7 @@ import React from "react";
 
 function Team() {
   return (
-    <div id="team" className="bg-teams bg-no-repeat bg-center bg-cover">
+    <div id="team" className="bg-no-repeat bg-center bg-cover">
       <div className="container py-16 md:py-24 lg:py-32">
         <div className="flex mb-8 flex-col items-center justify-center">
           <span className="font-bold capitalize lg:leading-[4rem] mb-2 lg:mb-4 font-manrope font-manrope text-white text-[2.1rem] lg:text-[3.6rem]">
@@ -13,7 +13,7 @@ function Team() {
             Space
           </span>
         </div>
-        <div className="w-full lg:w-[80%] mx-auto grid md:grid-cols-2 grid-cols-1 lg:grid-cols-3 gap-y-4 gap-x-6">
+        <div className="w-full lg:w-[90%] mx-auto grid md:grid-cols-2 grid-cols-1 lg:grid-cols-4 gap-y-4 gap-x-2">
           <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#50A350] to-[#D8DF88]  flex flex-col items-center justify-center">
             <div className="w-[100%] flex flex-col items-center">
               <img
@@ -30,7 +30,7 @@ function Team() {
                 Michi.eth
               </span>
               <span className="text-white font-semibold text-base">
-                Founder
+                Mr.Sheepie
               </span>
             </div>
           </div>
@@ -50,7 +50,7 @@ function Team() {
                 Amani
               </span>
               <span className="text-white font-semibold text-base">
-                Co-founder
+                Mr.Sheepie
               </span>
             </div>
           </div>
@@ -94,7 +94,7 @@ function Team() {
               <span className="text-white font-semibold text-base">Artist</span>
             </div>
           </div>
-          <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#C4362C] to-[#E0A028]  flex flex-col items-center justify-center">
+          {/* <div className="bg-gradient-to-t py-12 px-6 mr-2 lg:mb-0 mb-6 from-[#C4362C] to-[#E0A028]  flex flex-col items-center justify-center">
             <div className="w-[100%] flex flex-col items-center">
               <img
                 src="/imgs/remove5.png"
@@ -114,7 +114,7 @@ function Team() {
                 Community Manager
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

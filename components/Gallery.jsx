@@ -11,6 +11,8 @@ function Gallery() {
     className: "center",
     centerMode: true,
     autoplay: true,
+    focusOnSelect: true,
+    draggable: true,
     infinite: true,
     arrows: false,
     centerPadding: "30px",
@@ -18,7 +20,7 @@ function Gallery() {
     speed: 300
   };
   return (
-    <div id="art" className="bg-section2 bg-no-repeat bg-center bg-cover">
+    <div id="art" className="bg-no-repeat bg-center bg-cover">
       <div className="container py-16 lg:py-32">
         <div className="flex mb-8 flex-col mb-12 items-center justify-center">
           <span className="font-bold capitalize lg:leading-[4.3rem] leading-[2.6rem] mb-4 lg:mb-4 text-center font-manrope text-white text-[2.1rem] lg:text-[3.8rem]">

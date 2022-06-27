@@ -34,7 +34,7 @@ function About() {
         Join us today and discover how we are going to change and
           become the sheep shepherd to our world ecosystem!
         </span>
-        <button className="bg-text-white w-[16rem] text-base bg-green-500 duration-300 hover:bg-green-900 font-semibold rounded-md flex flex-col items-center px-12 uppercase text-white py-4">
+        <button className="bg-text-white w-[16rem] text-base bg-green-700 duration-300 hover:bg-green-900 font-semibold rounded-md flex flex-col items-center px-12 uppercase text-white py-4">
           <a
             href="https://discord.gg/m5CsM3hvCY"
             target="_blank"

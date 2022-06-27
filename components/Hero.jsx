@@ -17,11 +17,11 @@ function Hero() {
   return (
     <div
       id="home"
-      className="w-full py-12 bg-center h-screen lg:h-[80vh] flex flex-col items-center justify-center bg-cover bg-no-repeat bg-hero2 lg:bg-hero"
+      className="w-full py-12 bg-center h-screen lg:h-[80vh] flex flex-col overlay  items-center justify-center bg-cover bg-no-repeat bg-hero"
     >
       <div className="container grid grid-cols-1  lg:grid-cols-2">
         <div className="py-6">
-          <div className="w-full  lg:w-[75%] py-6">
+          <div className="w-full text-center md:text-left  lg:w-[75%] py-6">
             <h1 className="font-bold lg:leading-[5.5rem] mb-4 lg:mb-8 font-manrope leading-[3rem] text-white text-[2.4rem] lg:text-[4.5rem]">
               Welcome To Alpha Sheep Club.
             </h1>
@@ -32,8 +32,8 @@ function Hero() {
               metaverse.
             </span>
           </div>
-          <div className="flex mt-3 mb-8 lg:mb-0 lg:mt-6  items-center">
-            <button className="mr-1 lg:mr-2 bg-green-500 hover:bg-green-900 duration-300 text-white w-[8rem] text-sm md:text-base font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
+          <div className="flex mt-3 mb-8 lg:mb-0 lg:mt-6 justify-center md:justify-start  items-center">
+            <button className="mr-1 lg:mr-2 bg-green-700 hover:bg-green-900 duration-300 text-white w-[12rem] text-sm md:text-lg font-semibold rounded-md flex flex-col items-center lg:px-4 lg:py-4 px-3 py-3">
               Mint Now
             </button>
           </div>

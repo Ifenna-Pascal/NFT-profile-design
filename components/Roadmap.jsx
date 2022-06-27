@@ -53,7 +53,7 @@ function Roadmap() {
             build an exclusive Community.
           </span>
         </div>
-        <div className="max-w-[40rem] flex flex-col items-end relative">
+        <div className="max-w-[50rem] flex flex-col items-end relative">
           <div className="absolute left-0 h-full w-3 bg-green-500"></div>
           <Phase
             heading="Phase 1"

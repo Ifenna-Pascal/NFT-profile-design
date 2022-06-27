@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
 import About from "../components/About";
 import FAQ from "../components/FAQ";
 import Footer from "../components/Footer";
@@ -22,7 +21,7 @@ export default function Home() {
         />
         <link rel="icon" href="/Logo1.png" />
       </Head>
-      <main className="w-full h-full  bg-[#070707]">
+      <main className="w-full h-full  bg-black">
         <Nav />
         <Hero />
         <About />

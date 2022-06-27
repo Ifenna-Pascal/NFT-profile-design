@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { BsTwitter } from "react-icons/bs";
-import { FaDiscord, FaInstagram, FaReddit } from "react-icons/fa";
+import { FaDiscord, FaInstagram, FaReddit, FaTimes } from "react-icons/fa";
 import { AiOutlineMenu } from "react-icons/ai";
 import { Link as LinkS, animateScroll as scroll } from "react-scroll";
 import Link from "next/link";
@@ -18,17 +18,21 @@ function Nav() {
       setScrollNav(false);
     }
   };
+  const navAction = () => {
+    scroll.scrollToTop()
+    setShow(false);
+  }
   useEffect(() => {
     window.addEventListener("scroll", changeNav);
   }, []);
   return (
     <nav
-      className={`w-full ${show && "h-screen"} sticky z-50 bg-gray-900 ${scrollNav ? "shadow-xl h-full w-full bg-gray-500 rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 " : "shadow-none"
+      className={`w-full ${show && "h-screen"} sticky z-50 bg-black ${scrollNav ? "shadow-xl h-full w-full bg-gray-500  bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-30 " : "shadow-none"
         }  top-0`}
     >
       <div className="container px-5 lg:px-0 py-4 md:py-6 flex items-center justify-between">
         <div className="flex items-center">
-          <div className="mr-4" onClick={() => scroll.scrollToTop()}>
+          <div className="mr-4" onClick={navAction}>
             {" "}
             <img src="/imgs/Logo1.png" width={60} height={60} />
           </div>
@@ -128,8 +132,7 @@ function Nav() {
           className="lg:hidden flex items-center flex-col duration-300 "
           onClick={toggle}
         >
-          {" "}
-          <AiOutlineMenu className="w-8 h-8 text-white" />{" "}
+        { show ?  <FaTimes className="w-8 h-8 text-white" /> :  <AiOutlineMenu className="w-8 h-8 text-white" />}
         </div>
       </div>
       <div

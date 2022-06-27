@@ -26,6 +26,16 @@ a {
     @apply before:content-[''] bg-red-400 absolute -left-3 w-[2rem];
   }
 
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: 1;
+  }
+
   .navItem {
     @apply font-semibold text-white px-4 font-manrope text-lg py-3 md:py-0 hover:text-green-500 hover:cursor-pointer duration-300
   }
@@ -38,3 +48,12 @@ a {
     @apply bg-white rounded-md p-2 mr-3 hover:bg-green-500 hover:text-white hover:cursor-pointer duration-500;
   }
 }
+
+.slick-slide.slick-center .slider-point {
+  -webkit-transform: scale( 2.5 );
+     -moz-transform: scale( 2.5 );
+       -o-transform: scale( 2.5 );
+      -ms-transform: scale( 2.5 );
+          transform: scale( 2.5 );
+}
+.customClass.slick-center, li.customClass:nth-child(19)[aria-hidden="true"]{ transform: scale(1.2); }

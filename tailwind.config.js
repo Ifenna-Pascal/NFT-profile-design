@@ -18,12 +18,10 @@ module.exports = {
     },
     extend: {
       backgroundImage: {
-        'hero': "url(/imgs/banner.jpg)",
-        'hero2': "url(/imgs/hero2.jpg)",
+        'hero': "url(/imgs/hero.jpg)",
         'teams': "url(/imgs/teams.jpg)",
         'section': 'url(/imgs/section.jpg)',
-        'section2': 'url(/imgs/section3.jpg)',
-        'section3': 'url(/imgs/section3.jpg)',
+        'section2': 'url(/imgs/section2.jpg)',
         'road': 'url(/imgs/road.png)'
       }
     },

@@ -9,7 +9,7 @@ function Team() {
             Meet The Team
           </span>
           <span className="lg:text-xl text-center mb-3 text-lg block text-gray-400 font-manrope">
-            The ones who are making things happen in the Rockstar Apes Club
+            The ones who are making things happen in the Alpha Sheep Club
             Space
           </span>
         </div>
